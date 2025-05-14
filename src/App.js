@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
+import SchoolMeal from './pages/SchoolMeal';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Routes>           
             <Route path="/about" element={<AboutUs />} />
             <Route path="/contact" element={<ContactUs />} />
+            <Route path="/meal" element={<SchoolMeal />} />
           </Routes>
         </main>
         <Footer />
