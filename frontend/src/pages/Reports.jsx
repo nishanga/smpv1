@@ -55,17 +55,18 @@ export default function Reports() {
                   value={gender_}
                   onChange={(e) => setGender(e.target.value)}
                   className="mt-1 block w-full p-2 border rounded-md focus:ring-2 focus:ring-blue-400"
-                  placeholder="e.g. Fresh Foods Ltd"
+                  placeholder="Gender"
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700">Start Date</label>
+                <label className="block text-sm font-medium text-gray-700">NIC</label>
                 <input
-                  type="date"
+                  type="text"
                   value={nic_}
                   onChange={(e) => setNic(e.target.value)}
                   className="mt-1 block w-full p-2 border rounded-md focus:ring-2 focus:ring-blue-400"
+                  placeholder="NIC"
                 />
               </div>
 
